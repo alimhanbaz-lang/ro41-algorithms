@@ -1,43 +1,42 @@
-﻿using System;
+using System;
 
-namespace Sort3Project
+namespace CountDigitsApp
 {
-    public static class Order
-    {
-        // Метод меняет местами значения двух переменных с помощью ref
-        public static void Swap(ref int x, ref int y)
-        {
-            int temp = x;
-            x = y;
-            y = temp;
-        }
-
-        // Метод упорядочивает три числа по возрастанию, используя только Swap
-        public static void Sort3(ref int a, ref int b, ref int c)
-        {
-            if (a > b) Swap(ref a, ref b);
-            if (b > c) Swap(ref b, ref c);
-            if (a > b) Swap(ref a, ref b);
-        }
-    }
-
     class Program
     {
         static void Main(string[] args)
         {
-            // Проверка заданных троек: 3 1 2; 1 2 3; 3 2 1; 2 2 1; 5 5 5
-            TestSort(3, 1, 2);
-            TestSort(1, 2, 3);
-            TestSort(3, 2, 1);
-            TestSort(2, 2, 1);
-            TestSort(5, 5, 5);
-        }
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            
+            Console.Write("Введите целое неотрицательное число n: ");
+            string input = Console.ReadLine();
 
-        static void TestSort(int a, int b, int c)
-        {
-            int origA = a, origB = b, origC = c;
-            Order.Sort3(ref a, ref b, ref c);
-            Console.WriteLine($"{origA} {origB} {origC} -> {a} {b} {c}");
+            // Защита от некорректного ввода
+            if (!int.TryParse(input, out int n) || n < 0)
+            {
+                Console.WriteLine("Ошибка: введено некорректное значение. Требуется целое неотрицательное число.");
+                return;
+            }
+
+            int count = 0;
+            int temp = n; // Сохраняем исходное число для красивого вывода
+
+            // Особый случай для нуля (у числа 0 ровно 1 цифра)
+            if (n == 0)
+            {
+                count = 1;
+            }
+            else
+            {
+                // Цикл while для подсчета цифр путем деления на 10
+                while (n > 0)
+                {
+                    n /= 10;
+                    count++;
+                }
+            }
+
+            Console.WriteLine($"Результат: в числе {temp} количество цифр равно {count}.");
         }
     }
 }
