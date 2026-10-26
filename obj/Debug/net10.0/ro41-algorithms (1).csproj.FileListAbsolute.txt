@@ -1,0 +1,14 @@
+C:\Users\Салтанат\Desktop\ro41-algorithms (1)\bin\Debug\net10.0\ro41-algorithms (1).exe
+C:\Users\Салтанат\Desktop\ro41-algorithms (1)\bin\Debug\net10.0\ro41-algorithms (1).deps.json
+C:\Users\Салтанат\Desktop\ro41-algorithms (1)\bin\Debug\net10.0\ro41-algorithms (1).runtimeconfig.json
+C:\Users\Салтанат\Desktop\ro41-algorithms (1)\bin\Debug\net10.0\ro41-algorithms (1).dll
+C:\Users\Салтанат\Desktop\ro41-algorithms (1)\bin\Debug\net10.0\ro41-algorithms (1).pdb
+C:\Users\Салтанат\Desktop\ro41-algorithms (1)\obj\Debug\net10.0\ro41-algorithms (1).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Салтанат\Desktop\ro41-algorithms (1)\obj\Debug\net10.0\ro41-algorithms (1).AssemblyInfoInputs.cache
+C:\Users\Салтанат\Desktop\ro41-algorithms (1)\obj\Debug\net10.0\ro41-algorithms (1).AssemblyInfo.cs
+C:\Users\Салтанат\Desktop\ro41-algorithms (1)\obj\Debug\net10.0\ro41-algorithms (1).csproj.CoreCompileInputs.cache
+C:\Users\Салтанат\Desktop\ro41-algorithms (1)\obj\Debug\net10.0\ro41-algorithms (1).dll
+C:\Users\Салтанат\Desktop\ro41-algorithms (1)\obj\Debug\net10.0\refint\ro41-algorithms (1).dll
+C:\Users\Салтанат\Desktop\ro41-algorithms (1)\obj\Debug\net10.0\ro41-algorithms (1).pdb
+C:\Users\Салтанат\Desktop\ro41-algorithms (1)\obj\Debug\net10.0\ro41-algorithms (1).genruntimeconfig.cache
+C:\Users\Салтанат\Desktop\ro41-algorithms (1)\obj\Debug\net10.0\ref\ro41-algorithms (1).dll
