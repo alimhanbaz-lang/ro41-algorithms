@@ -1,0 +1,3 @@
+git add .
+git commit -m "Твое описание изменений"
+git push origin main
